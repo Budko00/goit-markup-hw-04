@@ -1,0 +1,459 @@
+/* Основні стилі для тіла сторінки */
+body {
+    font-family: Roboto, sans-serif;
+    /* Шрифт для тіла */
+    color: #434455;
+    /* Основний колір тексту */
+    background-color: #FFFFFF;
+    /* Колір фону */
+}
+/* Стилі для h3*/
+h3 {
+    font-family: Roboto, sans-serif;
+    /* Шрифт */
+    font-size: 18px;
+    /* Розмір шрифту */
+    font-weight: 500;
+    /* Товщина шрифту */
+    line-height: 1.11;
+    /* Висота рядка */
+    letter-spacing: 0.03em;
+    /* Відстань між літерами */
+    color: #2E2F42;
+    /* Колір тексту */
+}
+/*скид для списків */
+ul,ol {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+/* колір абзаців */
+p {
+    color: #434455;
+    /* Колір тексту */
+}
+/*маржин=0 заголовків*/
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+/* хедер */
+header {
+    box-sizing: border-box;
+    border-bottom: 1px solid #e7e9fc;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+/*головна сторінка*/
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
+/*хедер контейнер*/
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+    align-items: center;
+}
+/*навігація */
+.page-navigation {
+    display: flex;
+    align-items: center;  
+}
+/* Стилі для логотипу */
+.logotype {
+    font-family: Raleway, sans-serif;
+    /* Шрифт логотипу */
+    font-size: 18px;
+    /* Розмір шрифту */
+    font-weight: 700;
+    /* Товщина шрифту */
+    line-height: 1.17;
+    /* Висота рядка */
+    letter-spacing: 0.03em;
+    /* Відстань між літерами */
+    text-transform: uppercase;
+    /* Усі літери великі */
+    color: #4d5ae5;
+    /* Колір логотипу */
+    margin-right: 76px;
+}
+/* Стилі для посилань */
+.link {
+    text-decoration: none;
+    /* Вимкнення підкреслення */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
+    display: inline-block;
+
+}
+/* Стилі для логотипу (ікони) */
+.span-logo,
+.span-logo-web {
+    font-family: 'Raleway', sans-serif;
+    /* Шрифт */
+    font-size: 18px;
+    /* Розмір шрифту */
+    font-style: normal;
+    /* Нормальний стиль */
+    font-weight: 700;
+    /* Товщина шрифту */
+    line-height: 1.11;
+    /* Висота рядка */
+    letter-spacing: 0.03em;
+    /* Відстань між літерами */
+    text-transform: uppercase;
+    /* Усі літери великі */
+
+}
+.span-logo-web {
+    color: #4D5AE5;
+}
+.span-logo {
+    color: #2e2f42;
+    /* Колір тексту */
+}
+/* */
+.menu {
+    display: flex;
+    gap: 40px;
+}
+/* Скидання стилю для списків */
+.list{
+    list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        display: flex;
+}
+/* */
+.menu-item {
+    list-style-type: none;
+    /* Відступ між пунктами меню */
+
+}
+/* */
+.menu-item:last-child{
+    margin-right: 0;
+}
+/* посилання */
+.menu-link {
+    font-size: 16px;
+    /* Розмір шрифту */
+    font-weight: 500;
+    /* Товщина шрифту */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+    padding: 24px 0;
+    /* Відступи зверху знизу 24px, зліва справа 0px */
+} 
+/* Стилі для посилань при наведенні та фокусі */
+.link:hover,
+.link:focus {
+    color: #404bbf;
+    /* Зміна кольору при наведенні або фокусі */
+}
+/* котактна інформація*/
+.contact_info {
+    
+ font-style: normal;
+  /* Нормальний стиль шрифту */
+  line-height: 1.5;
+ /* Висота рядка */
+ letter-spacing: 0.02em;
+ /* Відстань між літерами */
+ color: #434455;
+ /* Колір тексту */
+    display: flex;
+}
+.contact_info li {
+    margin-right: 40px;
+}
+.contact_info li:last-child {
+    margin-right: 0;
+}
+/* Стилі для першої секції */
+.main_section {
+    background-color: #2e2f42;
+    /* Фон секції */
+    padding: 188px 0;
+}
+/* контейнер хедера 1,2,3,4 секцій футера*/
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Стилі для заголовка */
+.section_title {
+    font-size: 56px;
+    /* Розмір шрифту */
+    line-height: 1.07;
+    /* Висота рядка */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #ffffff;
+    /* Колір тексту */
+    max-width: 496px;
+    margin-right: auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+}
+/* Стилі для кнопки */
+.cta_button {
+    background-color: #4D5AE5;
+    /* Колір фону кнопки */
+    font-family: "Roboto", sans-serif;
+    /* Шрифт кнопки */
+    font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.04em;
+    /* Відстань між літерами */
+    color: #ffffff;
+    /* Колір тексту в кнопці */
+    cursor: pointer;
+    /* Стиль курсору */
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button {
+    cursor: pointer;
+    /* Курсор при наведенні на кнопку */
+}
+/* Зміни кольору кнопки при наведені та фокусі */
+.cta_button:hover,
+.cta_button:focus {
+    background-color: #404BBF;
+    /* Зміна кольору фону при наведенні та фокусі */
+}
+/*друга секція */
+ .second-section {
+       padding: 120px 0;
+   }
+ /*скритий заголовок */
+.visually-hidden {
+       position: absolute;
+       width: 1px;
+       height: 1px;
+       margin: -1px;
+       border: 0;
+       padding: 0;
+       white-space: nowrap;
+       clip-path: inset(100%);
+       clip: rect(0, 0, 0, 0);
+       overflow: hidden;
+   }
+ /* друга секція список */
+   /* */
+.benefits-list {
+    display: flex;
+       gap:24px;
+   }
+ /* li друга секція */
+ .benefits-item {
+       width: calc((100% - 72px) / 4);
+   }
+ /* Стилі h3 другої секції */
+ .benefits-title {
+     font-weight: 500;
+     /* Жирність шрифту */
+     font-size: 20px;
+     /* Розмір шрифту */
+     line-height: 1.2;
+     /* Висота рядка */
+     letter-spacing: 0.02em;
+     /* Відстань між літерами */
+     color: #2e2f42;
+     /* Колір тексту */
+     margin-bottom: 8px;
+ }
+ /* Стилі р другої секції */
+ .benefits-description {
+     font-size: 16px;
+     /* Розмір шрифту */
+     line-height: 1.5;
+     /* Висота рядка */
+     letter-spacing: 0.02em;
+     /* Відстань між літерами */
+     color: #434455;
+     /* Колір тексту */
+ }
+/* третя і четверта Секція */
+.fourth-section {
+    padding: 120px 0;
+}
+/*третя секція колір фону*/
+.third{
+    background-color: #F4F4FD;
+}
+/* Заголовок 3 і 4 секції */
+.section-title {
+    font-size: 36px;
+    /* Розмір шрифту */
+    line-height: 1.11;
+    /* Простір між рядками */
+    text-align: center;
+    /* Вирівнювання тексту по центру */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    text-transform: capitalize;
+    /* Текст із великої літери */
+    color: #2e2f42;
+    /* Колір тексту */
+    margin-bottom: 72px;
+}
+/*  третя секція список*/
+.team-list {
+    gap: 24px;
+}
+/* Пункт списку в 3 секції */
+.team-item {
+    background-color: #FFFFFF;
+    width: calc((100%-72px)/4);
+    border-radius: 0px 0px 4px 4px;
+}
+/*картинки*/
+img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+/* контейнер третьої секції*/
+.team-info{
+padding: 32px 0;
+}
+/* Заголовок пункту списку 
+3 і 4 секції*/
+.team-item-title {
+    font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 20px;
+    /* Розмір шрифту */
+    line-height: 1.2;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+    margin-bottom: 8px;
+    text-align: center;
+}
+/* Параграф у пункті списку
+3 і 4 секціїї */
+.team-item-text {
+    font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
+    text-align: center;
+} 
+/*  четверта секція список*/
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+/* контейнер четвертої секції*/
+.portfolio-box {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top:none ;
+}
+.fourth-team-item-title{
+font-weight: 500;
+    /* Жирність шрифту */
+    font-size: 20px;
+    /* Розмір шрифту */
+    line-height: 1.2;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #2e2f42;
+    /* Колір тексту */
+    margin-bottom: 8px;
+}
+.fourth-team-item-text{
+font-size: 16px;
+    /* Розмір шрифту */
+    line-height: 1.5;
+    /* Простір між рядками */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
+}
+/* лі в 4 секції */ 
+.portfolio-item{ 
+width: calc((100% - 48px) / 3);
+flex-wrap: wrap;
+gap: 48px 24px;
+border-radius: 0px 0px 4px 4px;
+}
+/*футер*/
+.footer_section {
+    background-color: #2e2f42;
+    /* Колір фону футера */
+    padding: 100px 0
+}
+/*logo у футері */
+.logotype-link {
+    margin-bottom: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+    /* Висота рядка */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    color: #434455;
+    /* Колір тексту */
+    display: inline-block;
+}
+
+/* Колір span в футері */
+.footer-span {
+ color: #f4f4fd;
+}
+/* абзац футера*/
+.footer_paragraph {
+    line-height: 1.5;
+    /* Висота рядка */
+    color: var(--text-color, #F4F4FD);
+    /* Колір тексту, використовуючи CSS змінну */
+    letter-spacing: 0.02em;
+    /* Відстань між літерами */
+    min-width: 264px; 
+max-width: 264px;
+}
+/*
+
+.team-item:last-child {
+    margin-right: 0;
+}
+*/
