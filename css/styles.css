@@ -186,7 +186,23 @@ header {
 .main_section {
     background-color: #2e2f42;
     /* Фон секції */
+    background-image:linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+    ),
+    url(/images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1440px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 188px 0;
+    /*
+    */
 }
 /* контейнер хедера 1,2,3,4 секцій футера*/
 .container {
@@ -265,6 +281,15 @@ header {
        clip-path: inset(100%);
        clip: rect(0, 0, 0, 0);
        overflow: hidden;
+   }
+   .icons{
+    background-color: #F4F4FD;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+text-align: center;
+padding: 24px 32px;
+    border: 1px solid #8E8F99;
    }
  /* друга секція список */
    /* */
@@ -451,9 +476,3 @@ border-radius: 0px 0px 4px 4px;
     min-width: 264px; 
 max-width: 264px;
 }
-/*
-
-.team-item:last-child {
-    margin-right: 0;
-}
-*/
