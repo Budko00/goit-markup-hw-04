@@ -386,6 +386,9 @@ padding: 24px 32px;
     background-color: #FFFFFF;
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /*картинки*/
 img {
@@ -393,6 +396,31 @@ img {
     width: 100%;
     height: 260px;
     object-fit: cover;
+}
+/* 3 секція список соцмереж*/
+.social-media-list{
+display: flex;
+justify-content: center;
+gap: 24px;
+}
+/* 3 секція лішка списка соцмереж*/
+.social-network-item{
+    width: 40px;
+    height: 40px;
+}
+/*значок посилання трейдингу 3 секція*/
+.traling-icon{
+width: 100%;
+height: 100%;
+background-color:#4d5ae5;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.traling-icon:hover,
+.traling-icon:focus{
+    background-color: #404bbf;
 }
 /* контейнер третьої секції*/
 .team-info{
