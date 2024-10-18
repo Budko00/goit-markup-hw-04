@@ -44,9 +44,6 @@ header {
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
-  box-shadow: 0px 1px 1px 0px #2E2F4229;
-    box-shadow: 0px 2px 1px 0px #2E2F4214;
 
 }
 .menu-link.link.current{
@@ -65,6 +62,9 @@ border-radius: 2px;
 /*головна сторінка*/
 .page-header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 /*хедер контейнер*/
 .header-container {
@@ -124,10 +124,6 @@ border-radius: 2px;
     /* Колір тексту */
     padding: 24px 0;
     /* Відступи зверху знизу 24px, зліва справа 0px */
-    transition: color 250ms cubic-bezier(0.4,
-        0,
-        0.2,
-        1);
     }
 /* Стилі для логотипу (ікони) */
 .span-logo,
@@ -166,12 +162,16 @@ border-radius: 2px;
         padding-left: 0;
         margin: 0;
         display: flex;
+        transition: color 250ms cubic-bezier(0.4,
+                    0,
+                    0.2,
+                    1);
 }
 /* */
 .menu-item {
     list-style-type: none;
     /* Відступ між пунктами меню */
-
+transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* */
 .menu-item:last-child{
@@ -196,10 +196,10 @@ border-radius: 2px;
  color: #434455;
  /* Колір тексту */
     display: flex;
-    transition: color 250ms cubic-bezier(0.4,  0,  0.2,  1);
 }
 .contact_info li {
-    margin-right: 40px;
+    margin-right: 40px; 
+
 }
 .contact_info li:last-child {
     margin-right: 0;
