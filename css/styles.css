@@ -109,6 +109,7 @@ border-radius: 2px;
     color: #434455;
     /* Колір тексту */
     display: inline-block;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }/* посилання */
 .menu-link {
@@ -212,7 +213,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
     ),
-    url(/images/people-office.jpg);
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -236,7 +237,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .footer-container{
-    display: flex;
     align-items: baseline;
     margin-right: 120px;
 
@@ -425,6 +425,7 @@ border-radius:50%;
 display: flex;
 align-items: center;
 justify-content: center;
+transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .traling-icon:hover,
 .traling-icon:focus{
@@ -531,12 +532,16 @@ width: calc((100% - 48px) / 3);
 flex-wrap: wrap;
 gap: 48px 24px;
 border-radius: 0px 0px 4px 4px;
+transition:box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-item:hover{
 box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16),
     0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
+.portfolio-item:hover .box-paragraph{
+    transform: translateY(0%);
 }
 /*футер*/
 .footer_section {
@@ -594,7 +599,6 @@ gap: 16px;
 .social-network-item{
 width: 40px;
 height: 40px;
-transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .traling-icon-footer {
     width: 100%;
@@ -606,6 +610,9 @@ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
     justify-content: center;
 }
     .traling-icon-footer:focus,
-.traling-icon-footer:hover{
+.traling-icon-foo:hover{
     background-color: #31d0aa;
+}
+.footer_section .container{
+    display: flex;
 }
