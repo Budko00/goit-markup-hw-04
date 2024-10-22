@@ -296,7 +296,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* Зміна кольору фону при наведенні та фокусі */
 }
 /*друга секція */
- .second-section {
+.second-section {
  padding: 120px 0;
 }
  /*скритий заголовок */
@@ -311,8 +311,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
        clip-path: inset(100%);
        clip: rect(0, 0, 0, 0);
        overflow: hidden;
- }
-   .icons{
+}
+.icons{
     background-color: #F4F4FD;
     width: 264px;
     height: 112px;
@@ -324,42 +324,42 @@ padding: 24px 32px;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
-   }
+}
  /* друга секція список */
    /* */
 .benefits-list {
     display: flex;
-       gap:24px;
-   }
+    gap:24px;
+}
  /* li друга секція */
- .benefits-item {
-       width: calc((100% - 72px) / 4);
-   }
+.benefits-item {
+    width: calc((100% - 72px) / 4);
+}
  /* Стилі h3 другої секції */
- .benefits-title {
-     font-weight: 500;
+.benefits-title {
+    font-weight: 500;
      /* Жирність шрифту */
-     font-size: 20px;
+    font-size: 20px;
      /* Розмір шрифту */
-     line-height: 1.2;
+    line-height: 1.2;
      /* Висота рядка */
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
      /* Відстань між літерами */
-     color: #2e2f42;
+    color: #2e2f42;
      /* Колір тексту */
-     margin-bottom: 8px;
- }
+    margin-bottom: 8px;
+}
  /* Стилі р другої секції */
- .benefits-description {
-     font-size: 16px;
+.benefits-description {
+    font-size: 16px;
      /* Розмір шрифту */
-     line-height: 1.5;
+    line-height: 1.5;
      /* Висота рядка */
-     letter-spacing: 0.02em;
+    letter-spacing: 0.02em;
      /* Відстань між літерами */
-     color: #434455;
+color: #434455;
      /* Колір тексту */
- }
+}
 /* третя і четверта Секція */
 .fourth-section {
     padding: 120px 0;
@@ -564,7 +564,7 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
 
 /* Колір span в футері */
 .footer-span {
- color: #f4f4fd;
+color: #f4f4fd;
 }
 /* абзац футера*/
 .footer_paragraph {
@@ -577,9 +577,7 @@ box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08),
     min-width: 264px; 
 max-width: 264px;
 }
-.social-media-footer{
 
-}
 .social-media-paragraph{
     font-weight: 500;
     font-size: 16px;
